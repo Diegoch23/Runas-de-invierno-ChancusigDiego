@@ -1,3 +1,4 @@
+using UnityEditor.Callbacks;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,11 +8,13 @@ public class AxelMovement : MonoBehaviour
     private Animator Animator;
     private float Horizontal;
     public float JumpForce;
+    public float fuerzaRebote=10f;
     public float Speed;
 
     private bool Grounded;
     private bool isDead = false;
     private bool atacando;
+    private bool Recibedanio;
 
     public int maxHealth = 100;
     private int currentHealth;
@@ -45,7 +48,7 @@ public class AxelMovement : MonoBehaviour
         Animator.SetBool("Grounded", Grounded);
         Debug.Log("Grounded: " + Grounded);
         Debug.DrawRay(transform.position + Vector3.down * 0.5f, Vector3.down * longitudRaycast, Color.red);
-
+        Animator.SetBool("Recibedanio", Recibedanio);
     }
     public void Movimiento()
     {
@@ -65,7 +68,7 @@ public class AxelMovement : MonoBehaviour
         }
 
         // Saltar si presiona W y tiene saltos disponibles
-        if (Input.GetKeyDown(KeyCode.W) && saltosRestantes > 0)
+        if (Input.GetKeyDown(KeyCode.W) && saltosRestantes > 0 &&!Recibedanio)
         {
             Jump();
             Animator.SetTrigger("Jump");
@@ -77,9 +80,10 @@ public class AxelMovement : MonoBehaviour
             Atacando();
         }
     }
+    
     private void Jump()
     {
-        Rigidbody2D.linearVelocity = new Vector2(Rigidbody2D.linearVelocity.x, 0f); 
+        Rigidbody2D.linearVelocity = new Vector2(Rigidbody2D.linearVelocity.x, 0f);
         Rigidbody2D.AddForce(Vector2.up * JumpForce, ForceMode2D.Impulse);
     }
 
@@ -134,7 +138,24 @@ public class AxelMovement : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-    
+
+    public void RecibeDanio(Vector2 direccion, int cantDanio)
+    {
+        if (!Recibedanio)
+        {
+            Recibedanio = true;
+            Vector2 rebote = new Vector2(transform.position.x - direccion.x, 0.5f).normalized;
+            Rigidbody2D.AddForce(rebote*fuerzaRebote, ForceMode2D.Impulse);
+        }
+        
+    }
+
+    public void DesactivaDanio()
+    {
+        Recibedanio = false;
+        Rigidbody2D.linearVelocity = Vector2.zero;
+    }
+
     private void OnDrawGizmos()
     {
         if (Rigidbody2D == null) return;

@@ -1,0 +1,2236 @@
+fileFormatVersion: 2
+guid: 69855af7541136149a6b5581b8eee9df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2237910669568544742
+    second: orc spritesheet calciumtrice_0
+  - first:
+      213: 6545297775876105799
+    second: orc spritesheet calciumtrice_1
+  - first:
+      213: -4447893189365505051
+    second: orc spritesheet calciumtrice_2
+  - first:
+      213: 2432637419273248280
+    second: orc spritesheet calciumtrice_3
+  - first:
+      213: -7414760921593925904
+    second: orc spritesheet calciumtrice_4
+  - first:
+      213: 2230180122700533724
+    second: orc spritesheet calciumtrice_5
+  - first:
+      213: 4875557561131578626
+    second: orc spritesheet calciumtrice_6
+  - first:
+      213: 3087217405123615486
+    second: orc spritesheet calciumtrice_7
+  - first:
+      213: 7956114576542747764
+    second: orc spritesheet calciumtrice_8
+  - first:
+      213: -4571298456827731111
+    second: orc spritesheet calciumtrice_9
+  - first:
+      213: 1786923328513242898
+    second: orc spritesheet calciumtrice_10
+  - first:
+      213: 6425673729483047457
+    second: orc spritesheet calciumtrice_11
+  - first:
+      213: -3648812239862332847
+    second: orc spritesheet calciumtrice_12
+  - first:
+      213: -4341173626546815802
+    second: orc spritesheet calciumtrice_13
+  - first:
+      213: -7400673527164532469
+    second: orc spritesheet calciumtrice_14
+  - first:
+      213: -5071063099637640047
+    second: orc spritesheet calciumtrice_15
+  - first:
+      213: -3407752313908221198
+    second: orc spritesheet calciumtrice_16
+  - first:
+      213: -8913767827427939473
+    second: orc spritesheet calciumtrice_17
+  - first:
+      213: 4130582259059527262
+    second: orc spritesheet calciumtrice_18
+  - first:
+      213: 1004919664114397523
+    second: orc spritesheet calciumtrice_19
+  - first:
+      213: 6652379106273985936
+    second: orc spritesheet calciumtrice_20
+  - first:
+      213: -390737348418857082
+    second: orc spritesheet calciumtrice_21
+  - first:
+      213: 3397575350334313241
+    second: orc spritesheet calciumtrice_22
+  - first:
+      213: 2777316634973432178
+    second: orc spritesheet calciumtrice_23
+  - first:
+      213: -6915584856692015118
+    second: orc spritesheet calciumtrice_24
+  - first:
+      213: 2622634616894489755
+    second: orc spritesheet calciumtrice_25
+  - first:
+      213: -7563145045760200824
+    second: orc spritesheet calciumtrice_26
+  - first:
+      213: 8633490366217641506
+    second: orc spritesheet calciumtrice_27
+  - first:
+      213: -6743985341434147471
+    second: orc spritesheet calciumtrice_28
+  - first:
+      213: 9042536293024887491
+    second: orc spritesheet calciumtrice_29
+  - first:
+      213: 4460107969051178739
+    second: orc spritesheet calciumtrice_30
+  - first:
+      213: 4470411784148544872
+    second: orc spritesheet calciumtrice_31
+  - first:
+      213: 1209884649090597649
+    second: orc spritesheet calciumtrice_32
+  - first:
+      213: -5875002170838399232
+    second: orc spritesheet calciumtrice_33
+  - first:
+      213: -6186154773298879365
+    second: orc spritesheet calciumtrice_34
+  - first:
+      213: 3615845653414402135
+    second: orc spritesheet calciumtrice_35
+  - first:
+      213: 5213232136469564527
+    second: orc spritesheet calciumtrice_36
+  - first:
+      213: 200205844582919953
+    second: orc spritesheet calciumtrice_37
+  - first:
+      213: 238116836278346758
+    second: orc spritesheet calciumtrice_38
+  - first:
+      213: -9216880286447769732
+    second: orc spritesheet calciumtrice_39
+  - first:
+      213: 7825842029290074675
+    second: orc spritesheet calciumtrice_40
+  - first:
+      213: -6570375804219094207
+    second: orc spritesheet calciumtrice_41
+  - first:
+      213: -6999365264342846080
+    second: orc spritesheet calciumtrice_42
+  - first:
+      213: 7527383614413322382
+    second: orc spritesheet calciumtrice_43
+  - first:
+      213: -6825018923868332821
+    second: orc spritesheet calciumtrice_44
+  - first:
+      213: -5816087774177137527
+    second: orc spritesheet calciumtrice_45
+  - first:
+      213: -1275013853106591782
+    second: orc spritesheet calciumtrice_46
+  - first:
+      213: 9060903019321255519
+    second: orc spritesheet calciumtrice_47
+  - first:
+      213: 6029916509468242206
+    second: orc spritesheet calciumtrice_48
+  - first:
+      213: -4811382945821596181
+    second: orc spritesheet calciumtrice_49
+  - first:
+      213: 7367151739446230563
+    second: orc spritesheet calciumtrice_50
+  - first:
+      213: 2280486174339662464
+    second: orc spritesheet calciumtrice_51
+  - first:
+      213: -3816510622076999332
+    second: orc spritesheet calciumtrice_52
+  - first:
+      213: 8764338648724851840
+    second: orc spritesheet calciumtrice_53
+  - first:
+      213: 2948228846482265844
+    second: orc spritesheet calciumtrice_54
+  - first:
+      213: -2200983224290953176
+    second: orc spritesheet calciumtrice_55
+  - first:
+      213: 3038392314771863493
+    second: orc spritesheet calciumtrice_56
+  - first:
+      213: -7756383759854448033
+    second: orc spritesheet calciumtrice_57
+  - first:
+      213: -9006138282511242193
+    second: orc spritesheet calciumtrice_58
+  - first:
+      213: -4396102285073856451
+    second: orc spritesheet calciumtrice_59
+  - first:
+      213: -4835996767154778873
+    second: orc spritesheet calciumtrice_60
+  - first:
+      213: 658486386735423752
+    second: orc spritesheet calciumtrice_61
+  - first:
+      213: 7275270765333821596
+    second: orc spritesheet calciumtrice_62
+  - first:
+      213: 4263885901894440648
+    second: orc spritesheet calciumtrice_63
+  - first:
+      213: 6317261286945175266
+    second: orc spritesheet calciumtrice_64
+  - first:
+      213: 3559066310551772083
+    second: orc spritesheet calciumtrice_65
+  - first:
+      213: -5898767636557693877
+    second: orc spritesheet calciumtrice_66
+  - first:
+      213: -8858395151798860678
+    second: orc spritesheet calciumtrice_67
+  - first:
+      213: -2933474515473946500
+    second: orc spritesheet calciumtrice_68
+  - first:
+      213: 2362762584367659821
+    second: orc spritesheet calciumtrice_69
+  - first:
+      213: 6048524850527046338
+    second: orc spritesheet calciumtrice_70
+  - first:
+      213: 1330711012180065093
+    second: orc spritesheet calciumtrice_71
+  - first:
+      213: -2195428644580739026
+    second: orc spritesheet calciumtrice_72
+  - first:
+      213: 347911639855543669
+    second: orc spritesheet calciumtrice_73
+  - first:
+      213: -7555619561326746982
+    second: orc spritesheet calciumtrice_74
+  - first:
+      213: -4375062778046572870
+    second: orc spritesheet calciumtrice_75
+  - first:
+      213: 7813797527966468917
+    second: orc spritesheet calciumtrice_76
+  - first:
+      213: -4591996173876960269
+    second: orc spritesheet calciumtrice_77
+  - first:
+      213: 4171332463855691178
+    second: orc spritesheet calciumtrice_78
+  - first:
+      213: -995275265374431859
+    second: orc spritesheet calciumtrice_79
+  - first:
+      213: -685738907596332779
+    second: orc spritesheet calciumtrice_80
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 25
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a107f4d5a1851f0e0800000000000000
+      internalID: -2237910669568544742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 223
+        width: 26
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746ef3016a195da50800000000000000
+      internalID: 6545297775876105799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 223
+        width: 26
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e36df0d5b8e542c0800000000000000
+      internalID: -4447893189365505051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_3
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 223
+        width: 26
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81eda1b18d672c120800000000000000
+      internalID: 2432637419273248280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_4
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 223
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe22f51a3a791990800000000000000
+      internalID: -7414760921593925904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_5
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 255
+        width: 25
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfc3be610133fe10800000000000000
+      internalID: 2230180122700533724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_6
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 223
+        width: 28
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205b73125c579a340800000000000000
+      internalID: 4875557561131578626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_7
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 223
+        width: 28
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efadbc88fdff7da20800000000000000
+      internalID: 3087217405123615486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_8
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 223
+        width: 28
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c4327dd0cc96e60800000000000000
+      internalID: 7956114576542747764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_9
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 223
+        width: 28
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953ed76f54c7f80c0800000000000000
+      internalID: -4571298456827731111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_10
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 223
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217f3ecbc4d6cc810800000000000000
+      internalID: 1786923328513242898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_11
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 255
+        width: 25
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122856856349c2950800000000000000
+      internalID: 6425673729483047457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_12
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 159
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15288ee9990dc5dc0800000000000000
+      internalID: -3648812239862332847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_13
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 191
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ccf161569d01c3c0800000000000000
+      internalID: -4341173626546815802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_14
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 191
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0988b233a68b4990800000000000000
+      internalID: -7400673527164532469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_15
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 191
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 194d1808af6ff99b0800000000000000
+      internalID: -5071063099637640047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_16
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 191
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa2cf6535b35b0d0800000000000000
+      internalID: -3407752313908221198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 191
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b2adb536feb4480800000000000000
+      internalID: -8913767827427939473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 191
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e06ca0ea6c25930800000000000000
+      internalID: 4130582259059527262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 191
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351f7573c1132fd00800000000000000
+      internalID: 1004919664114397523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 191
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09501b42d8ff15c50800000000000000
+      internalID: 6652379106273985936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_21
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 191
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687140ba372d39af0800000000000000
+      internalID: -390737348418857082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_22
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 127
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913dc4ea7cc962f20800000000000000
+      internalID: 3397575350334313241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_23
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 127
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279ef50c3c20b8620800000000000000
+      internalID: 2777316634973432178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_24
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 159
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff3dc29638e600a0800000000000000
+      internalID: -6915584856692015118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_25
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 127
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9483abe948756420800000000000000
+      internalID: 2622634616894489755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_26
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 159
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f25b2f6af4a0790800000000000000
+      internalID: -7563145045760200824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_27
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 127
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ed822feb150d770800000000000000
+      internalID: 8633490366217641506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_28
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 159
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d4069201d8862a0800000000000000
+      internalID: -6743985341434147471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_29
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 127
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2735e59da8d7d70800000000000000
+      internalID: 9042536293024887491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_30
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 159
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f63f23319c75ed30800000000000000
+      internalID: 4460107969051178739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_31
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 127
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86de4e915d71a0e30800000000000000
+      internalID: 4470411784148544872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_32
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 159
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1134e389daf5ac010800000000000000
+      internalID: 1209884649090597649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_33
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 127
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007478817acc77ea0800000000000000
+      internalID: -5875002170838399232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_34
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 159
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74eee3620d562aa0800000000000000
+      internalID: -6186154773298879365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_35
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 127
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758d766d6701e2230800000000000000
+      internalID: 3615845653414402135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_36
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 159
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c4be9d10f195840800000000000000
+      internalID: 5213232136469564527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_37
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 127
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f6258a72647c200800000000000000
+      internalID: 200205844582919953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_38
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 159
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60429614006fd4300800000000000000
+      internalID: 238116836278346758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_39
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 127
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77eafc6630171080800000000000000
+      internalID: -9216880286447769732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_40
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 95
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3323820dcd9fa9c60800000000000000
+      internalID: 7825842029290074675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_41
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 95
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b03b4740651d4a0800000000000000
+      internalID: -6570375804219094207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_42
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 95
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085f2a550624dde90800000000000000
+      internalID: -6999365264342846080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_43
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 95
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88b339f383a67860800000000000000
+      internalID: 7527383614413322382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_44
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 95
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec52810379a841a0800000000000000
+      internalID: -6825018923868332821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_45
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 95
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cedadfbfa194fa0800000000000000
+      internalID: -5816087774177137527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_46
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 95
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad721e9e7ad3e4ee0800000000000000
+      internalID: -1275013853106591782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_47
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 95
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5668e21a4bcebd70800000000000000
+      internalID: 9060903019321255519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_48
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 114
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e113e141e119ea350800000000000000
+      internalID: 6029916509468242206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_49
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 95
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be56eebd3b88a3db0800000000000000
+      internalID: -4811382945821596181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_50
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 95
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ef71469716d3660800000000000000
+      internalID: 7367151739446230563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_51
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 63
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08284b0d71ae5af10800000000000000
+      internalID: 2280486174339662464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_52
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 31
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5968995fc7090bc0800000000000000
+      internalID: -3816510622076999332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_53
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 63
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08cc878c09f21a970800000000000000
+      internalID: 8764338648724851840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_54
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 31
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f69227f3863ae820800000000000000
+      internalID: 2948228846482265844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_55
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 63
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8283b873b698471e0800000000000000
+      internalID: -2200983224290953176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_56
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 31
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7f04256b98a2a20800000000000000
+      internalID: 3038392314771863493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_57
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 63
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f525444c01acb5490800000000000000
+      internalID: -7756383759854448033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_58
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 31
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ceed8d2f4c30380800000000000000
+      internalID: -9006138282511242193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_59
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 63
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38c3e56348edf2c0800000000000000
+      internalID: -4396102285073856451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_60
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 31
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d4dceff8613ecb0800000000000000
+      internalID: -4835996767154778873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_61
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 63
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801abc241e9632900800000000000000
+      internalID: 658486386735423752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_62
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 31
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98b18c0734f6f460800000000000000
+      internalID: 7275270765333821596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_63
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 63
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6d63103ad5c2b30800000000000000
+      internalID: 4263885901894440648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_64
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 31
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6b1b19bab6ba750800000000000000
+      internalID: 6317261286945175266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_65
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 63
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb9f74e3f7546130800000000000000
+      internalID: 3559066310551772083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_66
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 31
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c786a661e532ea0800000000000000
+      internalID: -5898767636557693877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_67
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 63
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a748cf01b88a01580800000000000000
+      internalID: -8858395151798860678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_68
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 31
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78a38b68743a47d0800000000000000
+      internalID: -2933474515473946500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_69
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 63
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b71d15d083ac020800000000000000
+      internalID: 2362762584367659821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_70
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 31
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca89ca1e4da0f350800000000000000
+      internalID: 6048524850527046338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_71
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b71bb7d92a77210800000000000000
+      internalID: 1330711012180065093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_72
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e283c0697454881e0800000000000000
+      internalID: -2195428644580739026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_73
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57530da0bc704d400800000000000000
+      internalID: 347911639855543669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_74
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9260255a0c052790800000000000000
+      internalID: -7555619561326746982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_75
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6108c5597a843c0800000000000000
+      internalID: -4375062778046572870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_76
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 0
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b4441d37f207c60800000000000000
+      internalID: 7813797527966468917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_77
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f36c1e2fc3f540c0800000000000000
+      internalID: -4591996173876960269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_78
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa56c2476cc83e930800000000000000
+      internalID: 4171332463855691178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_79
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 0
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85df995b621032f0800000000000000
+      internalID: -995275265374431859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc spritesheet calciumtrice_80
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 0
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5116e04c814cb76f0800000000000000
+      internalID: -685738907596332779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      orc spritesheet calciumtrice_0: -2237910669568544742
+      orc spritesheet calciumtrice_1: 6545297775876105799
+      orc spritesheet calciumtrice_10: 1786923328513242898
+      orc spritesheet calciumtrice_11: 6425673729483047457
+      orc spritesheet calciumtrice_12: -3648812239862332847
+      orc spritesheet calciumtrice_13: -4341173626546815802
+      orc spritesheet calciumtrice_14: -7400673527164532469
+      orc spritesheet calciumtrice_15: -5071063099637640047
+      orc spritesheet calciumtrice_16: -3407752313908221198
+      orc spritesheet calciumtrice_17: -8913767827427939473
+      orc spritesheet calciumtrice_18: 4130582259059527262
+      orc spritesheet calciumtrice_19: 1004919664114397523
+      orc spritesheet calciumtrice_2: -4447893189365505051
+      orc spritesheet calciumtrice_20: 6652379106273985936
+      orc spritesheet calciumtrice_21: -390737348418857082
+      orc spritesheet calciumtrice_22: 3397575350334313241
+      orc spritesheet calciumtrice_23: 2777316634973432178
+      orc spritesheet calciumtrice_24: -6915584856692015118
+      orc spritesheet calciumtrice_25: 2622634616894489755
+      orc spritesheet calciumtrice_26: -7563145045760200824
+      orc spritesheet calciumtrice_27: 8633490366217641506
+      orc spritesheet calciumtrice_28: -6743985341434147471
+      orc spritesheet calciumtrice_29: 9042536293024887491
+      orc spritesheet calciumtrice_3: 2432637419273248280
+      orc spritesheet calciumtrice_30: 4460107969051178739
+      orc spritesheet calciumtrice_31: 4470411784148544872
+      orc spritesheet calciumtrice_32: 1209884649090597649
+      orc spritesheet calciumtrice_33: -5875002170838399232
+      orc spritesheet calciumtrice_34: -6186154773298879365
+      orc spritesheet calciumtrice_35: 3615845653414402135
+      orc spritesheet calciumtrice_36: 5213232136469564527
+      orc spritesheet calciumtrice_37: 200205844582919953
+      orc spritesheet calciumtrice_38: 238116836278346758
+      orc spritesheet calciumtrice_39: -9216880286447769732
+      orc spritesheet calciumtrice_4: -7414760921593925904
+      orc spritesheet calciumtrice_40: 7825842029290074675
+      orc spritesheet calciumtrice_41: -6570375804219094207
+      orc spritesheet calciumtrice_42: -6999365264342846080
+      orc spritesheet calciumtrice_43: 7527383614413322382
+      orc spritesheet calciumtrice_44: -6825018923868332821
+      orc spritesheet calciumtrice_45: -5816087774177137527
+      orc spritesheet calciumtrice_46: -1275013853106591782
+      orc spritesheet calciumtrice_47: 9060903019321255519
+      orc spritesheet calciumtrice_48: 6029916509468242206
+      orc spritesheet calciumtrice_49: -4811382945821596181
+      orc spritesheet calciumtrice_5: 2230180122700533724
+      orc spritesheet calciumtrice_50: 7367151739446230563
+      orc spritesheet calciumtrice_51: 2280486174339662464
+      orc spritesheet calciumtrice_52: -3816510622076999332
+      orc spritesheet calciumtrice_53: 8764338648724851840
+      orc spritesheet calciumtrice_54: 2948228846482265844
+      orc spritesheet calciumtrice_55: -2200983224290953176
+      orc spritesheet calciumtrice_56: 3038392314771863493
+      orc spritesheet calciumtrice_57: -7756383759854448033
+      orc spritesheet calciumtrice_58: -9006138282511242193
+      orc spritesheet calciumtrice_59: -4396102285073856451
+      orc spritesheet calciumtrice_6: 4875557561131578626
+      orc spritesheet calciumtrice_60: -4835996767154778873
+      orc spritesheet calciumtrice_61: 658486386735423752
+      orc spritesheet calciumtrice_62: 7275270765333821596
+      orc spritesheet calciumtrice_63: 4263885901894440648
+      orc spritesheet calciumtrice_64: 6317261286945175266
+      orc spritesheet calciumtrice_65: 3559066310551772083
+      orc spritesheet calciumtrice_66: -5898767636557693877
+      orc spritesheet calciumtrice_67: -8858395151798860678
+      orc spritesheet calciumtrice_68: -2933474515473946500
+      orc spritesheet calciumtrice_69: 2362762584367659821
+      orc spritesheet calciumtrice_7: 3087217405123615486
+      orc spritesheet calciumtrice_70: 6048524850527046338
+      orc spritesheet calciumtrice_71: 1330711012180065093
+      orc spritesheet calciumtrice_72: -2195428644580739026
+      orc spritesheet calciumtrice_73: 347911639855543669
+      orc spritesheet calciumtrice_74: -7555619561326746982
+      orc spritesheet calciumtrice_75: -4375062778046572870
+      orc spritesheet calciumtrice_76: 7813797527966468917
+      orc spritesheet calciumtrice_77: -4591996173876960269
+      orc spritesheet calciumtrice_78: 4171332463855691178
+      orc spritesheet calciumtrice_79: -995275265374431859
+      orc spritesheet calciumtrice_8: 7956114576542747764
+      orc spritesheet calciumtrice_80: -685738907596332779
+      orc spritesheet calciumtrice_9: -4571298456827731111
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
