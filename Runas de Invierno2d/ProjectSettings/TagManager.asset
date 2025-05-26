@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Playerr
+  - Tentacles
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - arboles
+  - Water
+  - UI
+  - hierba
+  - ice trees
+  - 'Ground '
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: arboles
+    uniqueID: 2303372025
+    locked: 0
+  - name: hierba
+    uniqueID: 1349882413
+    locked: 0
+  - name: ice trees
+    uniqueID: 1892191133
+    locked: 0
+  - name: 'Ground '
+    uniqueID: 3128361349
+    locked: 0
+  m_RenderingLayers:
+  - Default
