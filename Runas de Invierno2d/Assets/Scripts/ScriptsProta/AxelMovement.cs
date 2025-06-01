@@ -8,7 +8,7 @@ public class AxelMovement : MonoBehaviour
     private Animator Animator;
     private float Horizontal;
     public float JumpForce;
-    public float fuerzaRebote=10f;
+    public float fuerzaRebote = 10f;
     public float Speed;
 
     private bool Grounded;
@@ -28,6 +28,18 @@ public class AxelMovement : MonoBehaviour
 
     public int CurrentHealth { get { return currentHealth; } }
 
+
+    [Header("Escalar")]
+    [SerializeField] private float velocidadEscalar;
+    private CapsuleCollider2D capsuleCollider2D;
+    private float gravedadInicial;
+    private bool escalando;
+    private Vector2 input;
+
+    [Header("Escaleras horizontales")]
+    [SerializeField] private float velocidadEscalarHorizontal;
+    private bool escalandoHorizontal;
+
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
@@ -35,15 +47,21 @@ public class AxelMovement : MonoBehaviour
 
         currentHealth = maxHealth;
         saltosRestantes = maxSaltos;
+
+        capsuleCollider2D = GetComponent<CapsuleCollider2D>();
+        gravedadInicial = Rigidbody2D.gravityScale;
     }
 
     void Update()
     {
+        input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+
         if (!atacando)
         {
             Movimiento();
+            Escalar();
         }
-        
+
         Animator.SetBool("Atacando", atacando);
         Animator.SetBool("Grounded", Grounded);
         Debug.Log("Grounded: " + Grounded);
@@ -68,19 +86,21 @@ public class AxelMovement : MonoBehaviour
         }
 
         // Saltar si presiona W y tiene saltos disponibles
-        if (Input.GetKeyDown(KeyCode.W) && saltosRestantes > 0 &&!Recibedanio)
+        if (Input.GetKeyDown(KeyCode.W) && saltosRestantes > 0 && !Recibedanio)
         {
             Jump();
             Animator.SetTrigger("Jump");
             saltosRestantes--;  // resta un salto
         }
 
-       if (Input.GetKeyDown(KeyCode.U) && !atacando && Grounded && Horizontal == 0f)
+        if (Input.GetKeyDown(KeyCode.U) && !atacando && Grounded && Horizontal == 0f)
         {
             Atacando();
         }
+        if (escalando) return; // No moverse horizontalmente mientras escalas
+        Horizontal = Input.GetAxisRaw("Horizontal");
     }
-    
+
     private void Jump()
     {
         Rigidbody2D.linearVelocity = new Vector2(Rigidbody2D.linearVelocity.x, 0f);
@@ -89,7 +109,19 @@ public class AxelMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Rigidbody2D.linearVelocity = new Vector2(Horizontal * Speed, Rigidbody2D.linearVelocity.y);
+        if (escalando)
+        {
+            Rigidbody2D.linearVelocity = new Vector2(input.x * Speed, input.y * velocidadEscalar);
+        }
+        else if (escalandoHorizontal)
+        {
+            Rigidbody2D.linearVelocity = new Vector2(input.x * velocidadEscalarHorizontal, Rigidbody2D.linearVelocity.y);
+        }
+        else
+        {
+            Rigidbody2D.linearVelocity = new Vector2(input.x * Speed, Rigidbody2D.linearVelocity.y);
+            Rigidbody2D.gravityScale = gravedadInicial;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -144,15 +176,25 @@ public class AxelMovement : MonoBehaviour
         if (!Recibedanio)
         {
             Recibedanio = true;
-            Vector2 rebote = new Vector2(transform.position.x - direccion.x, 0.5f).normalized;
-            Rigidbody2D.AddForce(rebote*fuerzaRebote, ForceMode2D.Impulse);
+            TakeDamage(cantDanio);
+
+            // Rebote al recibir daño
+            Vector2 rebote = new Vector2(transform.position.x - direccion.x, 1.0f).normalized;
+            Rigidbody2D.AddForce(rebote * fuerzaRebote, ForceMode2D.Impulse);
+
+            // Activa animación de recibir daño
+            Animator.SetBool("Recibedanio", true);
+
+            // Invoca para desactivar el estado de daño después de 0.5 segundos
+            Invoke(nameof(DesactivaDanio), 0.5f);
+
         }
-        
     }
 
     public void DesactivaDanio()
     {
         Recibedanio = false;
+        Animator.SetBool("Recibedanio", false);
         Rigidbody2D.linearVelocity = Vector2.zero;
     }
 
@@ -168,6 +210,47 @@ public class AxelMovement : MonoBehaviour
         // Dibuja el raycast en rojo
         Gizmos.color = Color.red;
         Gizmos.DrawLine(origen, origen + direccion);
+    }
+
+    private void Escalar()
+    {
+        bool estaEnEscaleraVertical = capsuleCollider2D.IsTouchingLayers(LayerMask.GetMask("Escaleras"));
+        bool estaEnEscaleraHorizontal = capsuleCollider2D.IsTouchingLayers(LayerMask.GetMask("EscalerasHorizontales"));
+
+        if (estaEnEscaleraVertical)
+        {
+            escalando = true;
+            escalandoHorizontal = false;
+
+            Rigidbody2D.gravityScale = 0f;
+            Rigidbody2D.linearVelocity = new Vector2(input.x * Speed, input.y * velocidadEscalar);
+
+            Animator.SetBool("Climbing", true);
+            Animator.SetBool("ClimbingHorizontal", false);
+        }
+        else if (estaEnEscaleraHorizontal)
+        {
+            escalandoHorizontal = true;
+            escalando = false;
+
+            Rigidbody2D.gravityScale = 0f;
+            Rigidbody2D.linearVelocity = new Vector2(input.x * velocidadEscalarHorizontal, Rigidbody2D.linearVelocity.y);
+
+            Animator.SetBool("ClimbingHorizontal", true);
+            Animator.SetBool("Climbing", false);
+        }
+        else
+        {
+            if (escalando || escalandoHorizontal)
+            {
+                escalando = false;
+                escalandoHorizontal = false;
+
+                Rigidbody2D.gravityScale = gravedadInicial;
+                Animator.SetBool("Climbing", false);
+                Animator.SetBool("ClimbingHorizontal", false);
+            }
+        }
     }
 
 }
