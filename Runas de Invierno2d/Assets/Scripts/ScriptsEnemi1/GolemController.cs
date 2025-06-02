@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class GolemController : MonoBehaviour
 {
@@ -16,7 +17,14 @@ public class GolemController : MonoBehaviour
     private bool playerInRange = false;
     private GameObject player;
 
+    public int maxHealth = 50;
+    private int currentHealth;
+    private bool Recibedanio = false;
+    public float fuerzaRebote = 4f;
+    private Rigidbody2D rb;
+    public ScoreVisualManager scoreManager;
     private Animator animator;
+    
 
     void Start()
     {
@@ -25,6 +33,8 @@ public class GolemController : MonoBehaviour
         groundCheck.localPosition = new Vector3(-0.05f, -0.5f, 0);
 
         animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
+        currentHealth = maxHealth;
     }
 
     void Update()
@@ -118,5 +128,49 @@ public class GolemController : MonoBehaviour
             Gizmos.color = Color.red;
             Gizmos.DrawLine(groundCheck.position, groundCheck.position + Vector3.down * edgeDetectionDistance);
         }
+    }
+
+    public void RecibeDanio(Vector2 direccion, int cantDanio)
+    {
+        if (!Recibedanio)
+        {
+            Recibedanio = true;
+
+            currentHealth -= cantDanio;
+            Debug.Log("Vida Golem: " + currentHealth);
+
+            if (currentHealth <= 0)
+            {
+                Morir();
+                return;
+            }
+
+            float direccionX = Mathf.Sign(transform.position.x - direccion.x);
+            Vector2 rebote = new Vector2(direccionX, 0).normalized;
+            rb.AddForce(rebote * fuerzaRebote, ForceMode2D.Impulse);
+
+            animator.SetTrigger("Hurt");
+
+            StartCoroutine(DesactivaDanio());
+        }
+    }
+    
+    private IEnumerator DesactivaDanio()
+    {
+        yield return new WaitForSeconds(0.4f);
+        Recibedanio = false;
+        rb.linearVelocity = Vector2.zero;
+    }
+
+    private void Morir()
+    {
+        transform.position += new Vector3(0, -0.5f, 0);
+        animator.SetTrigger("Die");
+        rb.linearVelocity = Vector2.zero;
+        rb.simulated = false;
+        this.enabled = false;
+
+        Destroy(gameObject, 1.5f);
+        scoreManager.SumarPuntosPorEnemigo();
     }
 }

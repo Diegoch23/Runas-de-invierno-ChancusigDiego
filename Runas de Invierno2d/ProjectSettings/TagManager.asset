@@ -7,6 +7,7 @@ TagManager:
   - Playerr
   - Tentacles
   - Lanza
+  - Golem
   layers:
   - Default
   - TransparentFX

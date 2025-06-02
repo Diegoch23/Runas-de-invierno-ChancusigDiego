@@ -130,6 +130,16 @@ public class AxelMovement : MonoBehaviour
         {
             TakeDamage(currentHealth);
         }
+        else if (collision.CompareTag("Golem"))
+        {
+            GolemController golem = collision.GetComponent<GolemController>();
+            if (golem != null)
+            {
+                Vector2 direccionDanio = transform.position;
+                int damage = 10;
+                golem.RecibeDanio(direccionDanio, damage);
+            }
+        }
     }
 
     public void TakeDamage(int damage)
@@ -251,6 +261,13 @@ public class AxelMovement : MonoBehaviour
                 Animator.SetBool("ClimbingHorizontal", false);
             }
         }
+    }
+    
+    public void HealFull()
+    {
+        currentHealth = maxHealth;
+        Debug.Log("Vida restaurada al máximo: " + currentHealth);
+        // Aquí puedes actualizar UI de vida si tienes alguna
     }
 
 }

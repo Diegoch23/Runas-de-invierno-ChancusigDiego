@@ -15,6 +15,7 @@ public class OrcController : MonoBehaviour
     private Vector2 movement;
     public int maxHealth = 20;
     private int currentHealth;
+    public ScoreVisualManager scoreManager;
 
 
     void Start()
@@ -125,6 +126,8 @@ public class OrcController : MonoBehaviour
 
         // Destruir el objeto tras un delay para que termine la animación (ejemplo 1.5s)
         Destroy(gameObject, 1.5f);
+        scoreManager.SumarPuntosPorEnemigo();
+        
     }
 
 
