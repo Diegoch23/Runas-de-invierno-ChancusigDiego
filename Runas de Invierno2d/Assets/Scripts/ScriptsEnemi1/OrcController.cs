@@ -17,6 +17,7 @@ public class OrcController : MonoBehaviour
     private int currentHealth;
     public ScoreVisualManager scoreManager;
 
+    private bool isDead = false;  // <-- Control para evitar múltiples muertes
 
     void Start()
     {
@@ -27,7 +28,6 @@ public class OrcController : MonoBehaviour
 
     void Update()
     {
-        
         if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
         {
             float distanceToPlayer = Vector2.Distance(transform.position, player.position);
@@ -56,10 +56,10 @@ public class OrcController : MonoBehaviour
                 animator.SetBool("IsRunning", false);
             }
         }
-            else
-            {
-                movement = Vector2.zero; // Detener movimiento mientras ataca
-            }
+        else
+        {
+            movement = Vector2.zero; // Detener movimiento mientras ataca
+        }
     }
 
     private void FixedUpdate()
@@ -74,9 +74,8 @@ public class OrcController : MonoBehaviour
         {
             animator.SetTrigger("Attack");
             Vector2 direccionDanio = new Vector2(transform.position.x, 0);
-             movement = Vector2.zero;
+            movement = Vector2.zero;
             collision.gameObject.GetComponent<AxelMovement>().RecibeDanio(direccionDanio, 5);
-            
         }
     }
 
@@ -91,30 +90,33 @@ public class OrcController : MonoBehaviour
 
     public void RecibeDanio(Vector2 direccion, int cantDanio)
     {
-        if (!Recibedanio)
+        if (isDead || Recibedanio)  // <-- Evita recibir daño si ya está muerto o está recibiendo daño
+            return;
+
+        Recibedanio = true;
+
+        currentHealth -= cantDanio;
+        Debug.Log("Vida enemigo: " + currentHealth);
+
+        if (currentHealth <= 0)
         {
-            Recibedanio = true;
-
-            currentHealth -= cantDanio;
-            Debug.Log("Vida enemigo: " + currentHealth);
-
-            if (currentHealth <= 0)
-            {
-                Morir();
-                return;
-            }
-
-            // Rebote solo horizontal, sin componente vertical
-            float direccionX = Mathf.Sign(transform.position.x - direccion.x);
-            Vector2 rebote = new Vector2(direccionX, 0).normalized;
-            rb.AddForce(rebote * fuerzaRebote, ForceMode2D.Impulse);
-
-            StartCoroutine(DesactivaDanio());
+            Morir();
+            return;
         }
+
+        // Rebote solo horizontal, sin componente vertical
+        float direccionX = Mathf.Sign(transform.position.x - direccion.x);
+        Vector2 rebote = new Vector2(direccionX, 0).normalized;
+        rb.AddForce(rebote * fuerzaRebote, ForceMode2D.Impulse);
+
+        StartCoroutine(DesactivaDanio());
     }
 
     private void Morir()
     {
+        if (isDead) return;  // <-- Asegura que solo muera una vez
+        isDead = true;
+
         animator.SetTrigger("Die"); // Activa la animación de muerte
         Vector3 nuevaPos = transform.position;
         nuevaPos.y = -27.51f; // Cambia este valor al Y deseado para el suelo
@@ -126,8 +128,8 @@ public class OrcController : MonoBehaviour
 
         // Destruir el objeto tras un delay para que termine la animación (ejemplo 1.5s)
         Destroy(gameObject, 1.5f);
-        scoreManager.SumarPuntosPorEnemigo();
-        
+        ScoreVisualManager.Instance.SumarPuntosPorEnemigo();
+
     }
 
 

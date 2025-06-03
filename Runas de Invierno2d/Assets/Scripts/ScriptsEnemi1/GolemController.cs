@@ -24,6 +24,7 @@ public class GolemController : MonoBehaviour
     private Rigidbody2D rb;
     public ScoreVisualManager scoreManager;
     private Animator animator;
+    private bool isDead = false;
     
 
     void Start()
@@ -132,27 +133,27 @@ public class GolemController : MonoBehaviour
 
     public void RecibeDanio(Vector2 direccion, int cantDanio)
     {
-        if (!Recibedanio)
+        if (isDead || Recibedanio)  // Agrega la condición isDead para no recibir daño si ya está muerto
+            return;
+
+        Recibedanio = true;
+
+        currentHealth -= cantDanio;
+        Debug.Log("Vida Golem: " + currentHealth);
+
+        if (currentHealth <= 0)
         {
-            Recibedanio = true;
-
-            currentHealth -= cantDanio;
-            Debug.Log("Vida Golem: " + currentHealth);
-
-            if (currentHealth <= 0)
-            {
-                Morir();
-                return;
-            }
-
-            float direccionX = Mathf.Sign(transform.position.x - direccion.x);
-            Vector2 rebote = new Vector2(direccionX, 0).normalized;
-            rb.AddForce(rebote * fuerzaRebote, ForceMode2D.Impulse);
-
-            animator.SetTrigger("Hurt");
-
-            StartCoroutine(DesactivaDanio());
+            Morir();
+            return;
         }
+
+        float direccionX = Mathf.Sign(transform.position.x - direccion.x);
+        Vector2 rebote = new Vector2(direccionX, 0).normalized;
+        rb.AddForce(rebote * fuerzaRebote, ForceMode2D.Impulse);
+
+        animator.SetTrigger("Hurt");
+
+        StartCoroutine(DesactivaDanio());
     }
     
     private IEnumerator DesactivaDanio()
@@ -164,6 +165,9 @@ public class GolemController : MonoBehaviour
 
     private void Morir()
     {
+        if (isDead) return;  // Asegura que no se ejecute más de una vez
+        isDead = true;       // Marca como muerto
+
         transform.position += new Vector3(0, -0.5f, 0);
         animator.SetTrigger("Die");
         rb.linearVelocity = Vector2.zero;
@@ -171,6 +175,7 @@ public class GolemController : MonoBehaviour
         this.enabled = false;
 
         Destroy(gameObject, 1.5f);
-        scoreManager.SumarPuntosPorEnemigo();
+        ScoreVisualManager.Instance.SumarPuntosPorEnemigo();
+
     }
 }

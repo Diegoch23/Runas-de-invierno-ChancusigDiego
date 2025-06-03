@@ -18,6 +18,10 @@ public class AxelMovement : MonoBehaviour
 
     public int maxHealth = 100;
     private int currentHealth;
+    [Header("Audio")]
+    public AudioSource attackAudioSource;
+    public AudioClip[] attackClips;  // Array de clips para el ataque
+    private int currentAttackAudioIndex = 0;
 
     // Parámetros para detectar el suelo
     public float longitudRaycast = 0.2f;
@@ -25,6 +29,7 @@ public class AxelMovement : MonoBehaviour
 
     private int maxSaltos = 2;  // máximo 2 saltos (salto simple + doble salto)
     private int saltosRestantes;
+    
 
     public int CurrentHealth { get { return currentHealth; } }
 
@@ -39,8 +44,9 @@ public class AxelMovement : MonoBehaviour
     [Header("Escaleras horizontales")]
     [SerializeField] private float velocidadEscalarHorizontal;
     private bool escalandoHorizontal;
+    private MusicManager2 musicManager;
 
-    void Start()
+   void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
         Animator = GetComponent<Animator>();
@@ -50,6 +56,15 @@ public class AxelMovement : MonoBehaviour
 
         capsuleCollider2D = GetComponent<CapsuleCollider2D>();
         gravedadInicial = Rigidbody2D.gravityScale;
+
+        // Buscar la instancia de MusicManager2 en la escena
+        musicManager = Object.FindFirstObjectByType<MusicManager2>();
+
+        // Asegurarte que la música se esté reproduciendo al inicio
+        if (musicManager != null && !musicManager.IsPlaying())
+        {
+            musicManager.PlayMusic();
+        }
     }
 
     void Update()
@@ -163,12 +178,24 @@ public class AxelMovement : MonoBehaviour
         Rigidbody2D.linearVelocity = Vector2.zero;
         this.enabled = false;
 
+        // Pausar la música al morir
+        if (musicManager != null)
+        {
+            musicManager.StopMusic();
+        }
+
         Invoke(nameof(RestartScene), 3.5f);
     }
 
     public void Atacando()
     {
         atacando = true;
+
+        if (attackAudioSource != null && attackClips != null && attackClips.Length > 0)
+        {
+            attackAudioSource.PlayOneShot(attackClips[currentAttackAudioIndex]);
+            currentAttackAudioIndex = (currentAttackAudioIndex + 1) % attackClips.Length;
+        }
     }
 
     public void DesactivaAtaque()
@@ -267,7 +294,6 @@ public class AxelMovement : MonoBehaviour
     {
         currentHealth = maxHealth;
         Debug.Log("Vida restaurada al máximo: " + currentHealth);
-        // Aquí puedes actualizar UI de vida si tienes alguna
     }
 
 }
